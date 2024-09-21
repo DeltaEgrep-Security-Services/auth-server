@@ -92,9 +92,6 @@ void register_user() {
 
 // Check if login credentials are valid
 void login() {
-    // Sample Account
-    // Username: walter.parker
-    // Password: gh05t_1n_4_5h311c0d3
     char username[MAX_USERNAME], password[MAX_PASSWORD], stored_username[MAX_USERNAME], stored_hashed_password[65], hashed_password[65];
     
     printf("Enter username: ");
